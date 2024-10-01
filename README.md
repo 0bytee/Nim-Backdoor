@@ -6,7 +6,7 @@ Compile the Nim code using the Nim compiler:
 
 bash
 
-nim c -d:release --opt:speed --cpu:amd64 reverse_shell.nim
+    nim c -d:release --opt:speed --cpu:amd64 reverse_shell.nim
 
 On the attacker's machine, listen for the connection using a tool like nc (Netcat):
 
